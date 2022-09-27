@@ -164,3 +164,49 @@ body{
     color: #FFFFFF;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 565px) {
+    .flex, .grow_flex{
+    flex-direction: column;
+    }
+    .container{
+        max-width: 500px;
+    }
+    .header{
+        gap: 30px;
+    }
+    .header_nav{
+        display: none;
+    }
+    .main{
+        text-align: center;
+    }
+    .main_title{
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .main_text{
+        margin: 18px auto;
+    }
+    .main_input{
+        width: 240px;
+    }
+    .main_img{
+        margin-top: 40px;
+    }
+    .grow{
+        gap:30px;
+        margin: 60px auto;
+    }
+    .grow_title{
+        text-align: center;
+    }
+    .commerse_title{
+        margin-bottom: 30px;
+    }
+    .footer nav{
+        display: none;
+    }
+   
+    }
+
